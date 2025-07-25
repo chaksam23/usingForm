@@ -238,17 +238,17 @@
                     <div class="row">
                         <div class="col-md-4 col-sm-12">
                             <fieldset>
-                                First Name<input type="text" name="name" placeholder="Enter Name" class="form-control">
+                                First Name<input type="text" name="first_name" placeholder="Enter Name" class="form-control">
                             </fieldset>
                         </div>
                         <div class="col-md-4 col-sm-12">
                             <fieldset>
-                                Middle Name(if any)<input type="text" name="name" placeholder="Enter Name" class="form-control">
+                                Middle Name(if any)<input type="text" name="midd_name" placeholder="Enter Name" class="form-control">
                             </fieldset>
                         </div>
                         <div class="col-md-4 col-sm-12">
                             <fieldset>
-                                last Name<input type="text" name="name" placeholder="Enter Name" class="form-control">
+                                last Name<input type="text" name="last_name" placeholder="Enter Name" class="form-control">
                             </fieldset>
                         </div>
                         <div class="col-md-4 col-sm-12">
@@ -275,42 +275,47 @@
                         <fieldset>Present Address </fieldset>
                         <input name="current_address" class="form-control" placeholder="Village / city / pincode" rows="" cols=""></input>
                     </div>
-                    <div class="col-md-4 col-sm-12">
+                    <!-- <div class="col-md-4 col-sm-12">
                          
                         <fieldset>Parmanent Address </fieldset>
                        <input type="checkbox" id="same address" onclick="copyAddress()">
-                    </div>
+                    </div> -->
                 </div>  
                 <h5 class="pt-2">Parent Details</h5><hr>
                 <div class="row">
                     <div class="col-md-4 col-sm-12">
                         <fieldset>
-                                Father's Name<input type="text" name="name" placeholder="Enter Name" class="form-control">
+                                Father's Name<input type="text" name="father_name" placeholder="Enter Name" class="form-control">
                         </fieldset>
                     </div>
-                    <div class="col-md-4 col-sm-12">
+                    <!-- <div class="col-md-4 col-sm-12">
                         <fieldset>
                                 Father's Occupation<input type="text" name="name" placeholder="Enter occupation" class="form-control">
-                        </fieldset>
-                    </div>
+                        </fieldset> -->
+                    <!-- </div>
                     <div class="col-md-4 col-sm-12">
                         <fieldset>
                                 Phone Number<input type="number" name="number" placeholder="Enter Number" class="form-control">
                         </fieldset>
-                    </div>
+                    </div> -->
                     <div class="col-md-4 col-sm-12">
                         <fieldset>
-                                Mother's Name<input type="text" name="name" placeholder="Enter Name" class="form-control">
+                                Mother's Name<input type="text" name="mother_name" placeholder="Enter Name" class="form-control">
                         </fieldset>
                     </div>
-                    <div class="col-md-4 col-sm-12">
+                    <!-- <div class="col-md-4 col-sm-12">
                         <fieldset>
                                 Mother's Occupation<input type="text" name="name" placeholder="Enter occupation" class="form-control">
                         </fieldset>
+                    </div> -->
+                    <div class="col-md-4 col-sm-12">
+                        <fieldset>
+                                Phone Number<input type="number" name="ph_number" placeholder="Enter Number" class="form-control">
+                        </fieldset>
                     </div>
                     <div class="col-md-4 col-sm-12">
                         <fieldset>
-                                Phone Number<input type="number" name="number" placeholder="Enter Number" class="form-control">
+                                Parent's Address<input type="text" name="parent_address" placeholder="Enter address" class="form-control">
                         </fieldset>
                     </div>
                 </div>
@@ -318,29 +323,29 @@
                 <div class="row">
                     <div class="col-md-4 col-sm-12">
                         <fieldset>Name of the School</fieldset>
-                        <input type="text" placeholder="Enter school name"  class="form-control">
+                        <input type="text" name="school_name" placeholder="Enter school name"  class="form-control">
                     </div>
                     <div class="col-md-4 col-sm-12">
                         <fieldset>Address of the School</fieldset>
-                        <input type="text" placeholder="Village/City/Town/Zip/District/State"  class="form-control">
+                        <input type="text" name="school_address" placeholder="Village/City/Town/Zip/District/State"  class="form-control">
                     </div>
                     <div class="col-md-4 col-sm-12">
                         <fieldset>Contact Number</fieldset>
-                        <input type="number" class="form-control" placeholder="Enter Telephone Number">
+                        <input type="number" name="school_number" class="form-control" placeholder="Enter Telephone Number">
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-4 col-sm-12">
                         <fieldset>First Attended</fieldset>
-                        <input type="date" class="form-control">
+                        <input type="date" name="first_attended" class="form-control">
                     </div>
                     <div class="col-md-4 col-sm-12">
                         <fieldset>last Attended</fieldset>
-                        <input type="date" class="form-control">
+                        <input type="date" name="last_attended" class="form-control">
                     </div>
                     <div class="col-md-4 col-sm-12">
                         <fieldset>Board</fieldset>
-                        <select class="form-control">
+                        <select class="form-control" name="board">
                             <option xdisabled selected value=""></option>
                             <option value="WBBSE">WBBSE</option>
                             <option value="WBCHSE">WBCHSE</option>
@@ -356,29 +361,29 @@
                 <div class="row">
                     <div class="col-md-4 col-sm-12">
                         <fieldset>Marks Obtained in Madhyamik</fieldset>
-                        <input type="number" name="" class="form-control">
+                        <input type="number" name="marks_10th" class="form-control">
                     </div>
                     <div class="col-md-4 col-sm-12">
                         <fieldset> Out of</fieldset>
-                        <input type="number" name="" class="form-control">
+                        <input type="number" name="out_of_10th" class="form-control">
                     </div>
                     <div class="col-md-4 col-sm-12">
                         <fieldset>Percentage(%)</fieldset>
-                        <input type="number" max="100" name="number" class="form-control">
+                        <input type="number" max="100" name="parcent_10th" class="form-control">
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-md-4 col-sm-12">
                         <fieldset>Marks Obtained in Higher Secondary</fieldset>
-                        <input type="number" name="" class="form-control"> 
+                        <input type="number" name="marks_12th" class="form-control"> 
                     </div>
                     <div class="col-md-4 col-sm-12">
                         <fieldset>Out of</fieldset>
-                        <input type="number" name="higherm"  class="form-control">
+                        <input type="number" name="out_of_12th"  class="form-control">
                     </div>
                     <div class="col-md-4 col-sm-12">
                         <fieldset>Percentage(%)</fieldset>
-                        <input type="number" max="100" name="number" class="form-control">
+                        <input type="number" max="100" name="parcent_12th" class="form-control">
                     </div>
                 </div>
 
@@ -386,31 +391,31 @@
                 <div class="row">
                     <div class="col-md-4 col-sm-12">
                         <fieldset>Address proof of the Applicant</fieldset>
-                        <input type="file" name="file"  class="form-control">
+                        <input type="file" name="adhaar_applicant_file"  class="form-control">
                     </div>
                     <div class="col-md-4 col-sm-12">
                         <fieldset>Address proof of Father</fieldset>
-                        <input type="file" name="file"  class="form-control">
+                        <input type="file" name="adhaar_father_file"  class="form-control">
                     </div>
                     <div class="col-md-4 col-sm-12">
                         <fieldset>Address proof of Mother</fieldset>
-                        <input type="file" name="file"  class="form-control">
+                        <input type="file" name="adhaar_mother_file"  class="form-control">
                     </div>
                     <div class="col-md-4 col-sm-12">
                         <fieldset>Admit of Madhyamik</fieldset>
-                        <input type="file" name="madhyamiadmit"  class="form-control">
+                        <input type="file" name="admit_10th"  class="form-control">
                     </div>
                     <div class="col-md-4 col-sm-12">
                         <fieldset>Admit of Higher Secondary</fieldset>
-                        <input type="file" name="higheradmit"  class="form-control">
+                        <input type="file" name="admit_12th"  class="form-control">
                     </div>
                     <div class="col-md-4 col-sm-12">
                         <fieldset>Marksheet of Madhyamik</fieldset>
-                        <input type="file" name="higherm"  class="form-control">
+                        <input type="file" name="marksheet_10th"  class="form-control">
                     </div>
                     <div class="col-md-4 col-sm-12">
                         <fieldset>Marksheet of Higher Secondary</fieldset>
-                        <input type="file" name="higherm"  class="form-control">
+                        <input type="file" name="marksheet_12th"  class="form-control">
                     </div>
                 </div><br>
                 <center><button type="submit" value="submit">Register Now</button></center>
