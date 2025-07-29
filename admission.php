@@ -6,12 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>kid's discovery girls' college</title>
     <link rel="stylesheet" href="assets/style.css">
-    <link rel="stylesheet" href="assets/admission.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
 </head>
-
 <body>
     <section>
         <div class="container-fluid">
@@ -58,7 +55,7 @@
                     <div class="row">
                         <div class="col-md-3 col-sm-12">
                             <div class="logo-section pt-4">
-                                <img src="image/logo.jpg" alt="..." height="100px" width="100px" id="logo">
+                                <img src="image/logo.jpg" alt="..." height="100px" width="100px">
                                 <img src="image/nirf1.png" alt="..." height="80px" width="100px">
                             </div>
                         </div>
@@ -81,34 +78,43 @@
             </div>
         </div>
     </section>
-   
-
-    
-    <section id="navi">
-        <nav class="navbar navbar-expand-lg" >
+    <div class="blink-text">
+        <p><span>Networking and Collaboration</span></p>
+    </div>
+    <section>
+        <nav class="navbar navbar-expand-lg">
             <div class="container-fluid">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="fa-solid fa-bars-staggered"></span>
-                  
+                    <span class="navbar-toggler-icon"></span>
                 </button>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav  mb-2  mb-lg-0">
                         <li class="nav-item dropdown">
-                            <a class="nav-link " href="#about">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
                                 About
                             </a>
-                           
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="assets/about.html">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link " href="#about">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
                                 Academic
                             </a>
-                           
-                        </li>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
 
-                       
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
+                        </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
                                 data-bs-toggle="dropdown" aria-expanded="false">
@@ -122,10 +128,16 @@
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link " href="#gllery">
-                               Gallery
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                IQAC
                             </a>
-                           
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -151,11 +163,17 @@
                                 <li><a class="dropdown-item" href="#">Something else here</a></li>
                             </ul>
                         </li>
-                       <li class="nav-item dropdown">
-                            <a class="nav-link " href="admission.php">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
                                 Admission
                             </a>
-                           
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <li><a class="dropdown-item" href="#">Action</a></li>
+                                <li><a class="dropdown-item" href="#">Another action</a></li>
+
+                                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                            </ul>
                         </li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
@@ -218,8 +236,9 @@
                             </ul>
                         </li>
                         <li class="nav-item dropdown">
-                            <a class="nav-link" href="#notice">
-                              Notice Borad
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                                data-bs-toggle="dropdown" aria-expanded="false">
+                                Feedback
                             </a>
                         </li>
                     </ul>
@@ -227,6 +246,7 @@
             </div>
         </nav>
     </section>
+
 
 
 <section>
@@ -238,7 +258,7 @@
                     <div class="row">
                         <div class="col-md-4 col-sm-12">
                             <fieldset>
-                                First Name<input type="text" name="first_name" placeholder="Enter Name" class="form-control" required>
+                                First Name<input type="text" name="first_name" placeholder="Enter Name" class="form-control">
                             </fieldset>
                         </div>
                         <div class="col-md-4 col-sm-12">
@@ -427,20 +447,7 @@
     </div>
 </section>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <section>
+ <section>
         <div class="container-fluid">
             <div class="row  footer mt-1 pt-3">
                 <div class="container">
@@ -488,10 +495,6 @@
             </div>
         </div>
     </section>
-
-    <script src="js/project.js"></script>
-
-
-</body>
-
+           <script src="js/project.js"></script>
+    </body>
 </html>
