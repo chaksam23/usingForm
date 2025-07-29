@@ -183,22 +183,26 @@ body {
         opacity: 1;
     }
 }
+.dropdown-toggle {
+    background-color: #7952B3;
+    color: #fff;
+    display: inline-block;
+}
 
 
 
 .navbar-expand-lg {
     height: 45px;
     background-color: #7952B3;
-    color: #ffffff05 ;
+    color: #fff !important;
     padding-top: 10px;
 
 
 }
 
 #navbarSupportedContent  ul li a{
-    color: #ffffff00;
+    color: #fff!important;
 }
-
 .announce-ment {
     height: 45px;
     background-color: #F9AB03;
