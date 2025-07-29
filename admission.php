@@ -238,7 +238,7 @@
                     <div class="row">
                         <div class="col-md-4 col-sm-12">
                             <fieldset>
-                                First Name<input type="text" name="first_name" placeholder="Enter Name" class="form-control">
+                                First Name<input type="text" name="first_name" placeholder="Enter Name" class="form-control" required>
                             </fieldset>
                         </div>
                         <div class="col-md-4 col-sm-12">
